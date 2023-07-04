@@ -8,7 +8,7 @@ Pressione as teclas **Ctrl Shift P**, digite **Clonar**, selecione a opção Git
 https://github.com/ldmfabio/simulado_if_else.git
 ```
 *Ou então*, no terminal do VSCode, digite:
-```GIT
+```GIT>
 git clone https://github.com/ldmfabio/simulado_if_else.git
 ```
 

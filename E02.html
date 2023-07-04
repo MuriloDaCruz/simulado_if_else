@@ -9,11 +9,16 @@
     //Calcule o custo total dos alimentos e verifique se há dinheiro suficiente para realizar a compra, indicando se sobrará ou faltará dinheiro, e também apresentando qual foi a quantia que sobrou ou faltou para realizar a compra. Apresente também na tela o valor total da compra.
 
     //ENTRADA
-
-
+    const mamao = Number(prompt('Informe o preço das unidades de mamão:').trim().replace(',','.'));
+    const melancia = Number(prompt('Informe o preço dos quilos de melancia:').trim().replace(',','.'));
+    const abacate = Number(prompt('Informe o preço das unidades de abacate:').trim().replace(',','.'));
+    const cebola = Number(prompt('Informe o preço dos quilos de cebola:').trim().replace(',','.'));
+    const money = Number(prompt('Informe a quantia de dinheiro que você tem para pagar as compras:').trim().replace(',','.'));
     //PROCESSAMENTO
-
-
+    const totalPay = Math.ceil(mamao+melancia+abacate+cebola)
+    if(money<totalPay){
+    alert(``)
+    }
     //SAÍDA
 
 </script>
